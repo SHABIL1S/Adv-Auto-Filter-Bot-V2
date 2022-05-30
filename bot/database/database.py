@@ -31,7 +31,7 @@ class Database:
         try:
             group_id, channel_id = int(group_id), int(channel_id)
         except:
-            pass
+
         
         return dict(
             _id = group_id,
